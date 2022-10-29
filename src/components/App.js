@@ -3,7 +3,7 @@ import "./../styles/App.css";
 
 function App() {
   
-  const [show, setshow] = useState(true);
+  const [show, setshow] = useState(false);
   
   const showfn = () =>{
     setshow(true);
